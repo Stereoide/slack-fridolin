@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('phone/{keyword}', 'FridolinController@fetchFridolinResults');
+
 Route::get('/', function () {
     return view('welcome');
 });
